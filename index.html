@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LazySloth Coin (SLOTH) - Slow but steady... to the moon!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f9f4;
+            color: #333;
+        }
+        header {
+            background-color: #6fb98f;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            text-align: center;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #88d498;
+            color: white;
+            padding: 10px 20px;
+            margin: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        .btn:hover {
+            background-color: #6fb98f;
+        }
+        .section {
+            margin: 40px 0;
+        }
+        .roadmap {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .roadmap .phase {
+            border: 2px solid #88d498;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+            width: 250px;
+            background-color: white;
+            text-align: left;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>LazySloth Coin (SLOTH)</h1>
+        <p>Slow but steady... to the moon!</p>
+    </header>
+
+    <div class="container">
+        <section class="section">
+            <h2>About LazySloth Coin</h2>
+            <p>LazySloth Coin (SLOTH) is a meme token designed for sloth lovers and crypto enthusiasts. Inspired by the mantra "Slow but steady," we aim to build a sustainable community with long-term value.</p>
+        </section>
+
+        <section class="section">
+            <h2>Tokenomics</h2>
+            <p>Total Supply: 1,000,000,000 SLOTH</p>
+            <p>Distribution: 50% Liquidity, 20% Development, 20% Community Rewards, 10% Marketing</p>
+        </section>
+
+        <section class="section">
+            <h2>Roadmap</h2>
+            <div class="roadmap">
+                <div class="phase">
+                    <h3>Phase 1: Hatching the Vision</h3>
+                    <ul>
+                        <li>Create and launch SLOTH token</li>
+                        <li>Develop website and branding</li>
+                        <li>Build community on social media</li>
+                    </ul>
+                </div>
+                <div class="phase">
+                    <h3>Phase 2: Building Momentum</h3>
+                    <ul>
+                        <li>Launch on PancakeSwap</li>
+                        <li>Liquidity pool setup</li>
+                        <li>Partnerships with NFT creators</li>
+                    </ul>
+                </div>
+                <div class="phase">
+                    <h3>Phase 3: Expansion & Utility</h3>
+                    <ul>
+                        <li>Introduce sloth-themed NFTs</li>
+                        <li>List on centralized exchanges</li>
+                        <li>Launch staking and rewards</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Join the Community</h2>
+            <a href="#" class="btn">Discord</a>
+            <a href="#" class="btn">Telegram</a>
+        </section>
+
+        <section class="section">
+            <h2>How to Buy SLOTH</h2>
+            <p>Follow these steps:</p>
+            <ol>
+                <li>Set up a crypto wallet (e.g., Metamask).</li>
+                <li>Transfer BNB or ETH to your wallet.</li>
+                <li>Go to PancakeSwap or Uniswap and connect your wallet.</li>
+                <li>Swap BNB/ETH for SLOTH tokens.</li>
+            </ol>
+        </section>
+
+        <section class="section">
+            <h2>LazySloth Gallery</h2>
+            <p>Explore our sloth-themed artwork and memes created by the community.</p>
+            <div id="gallery" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+                <img src="https://via.placeholder.com/150" alt="Meme 1" style="border-radius: 10px;">
+                <img src="https://via.placeholder.com/150" alt="Meme 2" style="border-radius: 10px;">
+                <img src="https://via.placeholder.com/150" alt="Meme 3" style="border-radius: 10px;">
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 LazySloth Coin. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scroll functionality for better UX
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
